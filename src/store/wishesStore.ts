@@ -8,7 +8,7 @@ export type Wish = {
   ownerId: string;
 };
 
-type WishesStore = {
+export type WishesStore = {
   wishes: Wish[];
   ownerId: string;
   addWish: (wish: Omit<Wish, 'id' | 'ownerId'>) => Promise<void>;

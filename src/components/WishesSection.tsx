@@ -1,11 +1,11 @@
 "use client";
+import { useWishesStore } from "@/store/wishesStore";
+import { getRandomColor } from "@/utils/randomColor";
 import { FormEvent, useEffect, useRef, useState } from "react";
 import { CiHeart } from "react-icons/ci";
 import { toast } from "react-toastify";
-import { useWishesStore } from "../../store/wishesStore";
-import { getRandomColor } from "../../utils/randomColor";
 
-const WishesSection: React.FC = () => {
+export const WishesSection: React.FC = () => {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
   const wishesContainerRef = useRef<HTMLDivElement>(null);

@@ -1,7 +1,7 @@
 import { FaBabyCarriage } from "react-icons/fa";
 import { FiMenu, FiX } from "react-icons/fi"; // Icons for the mobile menu toggle
 
-const Header = () => {
+export const Header = () => {
   return (
     <header className="bg-white shadow-lg py-4 sticky top-0 z-50">
       <div className="container mx-auto px-4 flex justify-between items-center">
@@ -76,4 +76,3 @@ const Header = () => {
   );
 };
 
-export default Header;

@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const GiftRegistry: React.FC = () => {
+export const GiftRegistry: React.FC = () => {
   return (
     <section id="registry" className="py-20 bg-white">
       <div className="container mx-auto px-4">
@@ -80,4 +80,3 @@ const GiftRegistry: React.FC = () => {
   );
 };
 
-export default GiftRegistry;

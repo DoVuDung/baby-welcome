@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { FaImages, FaStar, FaBaby } from 'react-icons/fa';
 
-const HeroSection = () => {
+export const HeroSection = () => {
   return (
     <section id="home" className="py-20 bg-gradient-to-r bg-blue-400">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
@@ -50,4 +50,3 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSection;
